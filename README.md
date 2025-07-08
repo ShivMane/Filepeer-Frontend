@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PeerLink UI
 
 This is the frontend UI for the PeerLink P2P file sharing application. It's built with Next.js, TypeScript, and Tailwind CSS.
@@ -74,3 +75,7 @@ java -jar target/p2p-1.0-SNAPSHOT.jar
 - `src/app`: Next.js app router pages
 - `src/components`: React components
 - `public`: Static assets
+=======
+# Filepeer-Frontend
+Filepeer frontend
+>>>>>>> a412bcfe7a0a89812dff3644d02a0bbcc4aed5f0

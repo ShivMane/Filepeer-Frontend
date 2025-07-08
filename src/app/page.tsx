@@ -21,7 +21,8 @@ export default function Home() {
       const formData = new FormData();
       formData.append('file', file);
       
-      const response = await axios.post('/api/upload', formData, {
+      const response = await axios.post('http://13.234.219.43/api/upload', formData, {
+
         headers: {
           'Content-Type': 'multipart/form-data',
         },
@@ -41,7 +42,8 @@ export default function Home() {
     
     try {
       // Request download from Java backend
-      const response = await axios.get(`/api/download/${port}`, {
+      const response = await axios.post('http://13.234.219.43/api/upload', formData, {
+
         responseType: 'blob',
       });
       
